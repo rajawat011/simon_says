@@ -1,0 +1,132 @@
+
+html {
+    height: 100vh;
+    user-select: none;
+    background-color: 	#FFFAFA;
+}
+
+h1 {
+    font-family: "Nabla", system-ui;
+    color: purple;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+    background-color: #00047A;
+
+}
+
+
+.btns-container {
+    position: fixed;
+    left : 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 300px;
+    height: 300px;
+    
+}
+
+.btn:active {
+    opacity: 0.75;
+}
+
+.upper-divs,
+.lower-divs {
+    display: flex;
+    gap : 20px;
+    
+}
+
+
+.red{
+    border-top-left-radius: 100%;
+    background-color:#ad1424;
+    border: 5px solid #972024;
+}
+
+.red:hover {
+    box-shadow: -5px -5px 25px #ad1424;
+}
+
+.yellow {
+    border-top-right-radius: 100%;
+    background-color: #EDC001;
+    border : 5px solid #C49102;
+}
+
+.yellow:hover {
+    box-shadow: -5px -5px 25px  #EDC001;
+}
+
+.green {
+    border-bottom-right-radius: 100%;
+    background-color: #597D35;
+    border : 5px solid #46612B;
+}
+
+.green:hover {
+    box-shadow: 5px 5px 25px #597D35;
+}
+
+.blue {
+    border-bottom-left-radius: 100%;
+    background-color:#0229bf;
+    border : 5px solid #00047A;
+}
+
+.blue:hover {
+    box-shadow: -5px 5px 25px #0229bf;
+}
+
+.circle {
+    z-index: 2;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 20px solid #fff;
+}
+
+.back-circle {
+    z-index: 1;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: conic-gradient(
+                                    white 0deg 5deg,
+                                    #C49102 5deg 85deg,
+                                    white 85deg 95deg,
+                                    #46612B 95deg 175deg,
+                                    white 175deg 185deg,
+                                    #00047A 185deg 265deg,
+                                    white 265deg 275deg,
+                                    #972024 275deg 355deg,
+                                    white 355deg 360deg
+                                );        
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
