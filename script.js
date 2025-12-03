@@ -92,10 +92,18 @@ document.addEventListener('click', (e) =>{
 
     if(gameStart == false && colorArr.includes(e.target.id) ) {
         userchoice.push(e.target.id)
-        computerselect(random)
+        secqence()
     }
 
 })
+
+
+function secqence() {
+    for (i=0 ; i < computerchoice; i++) {
+        computerselect(random)
+        console.log("working")
+    }
+}
 
 console.log(userchoice);
 console.log(computerchoice);
