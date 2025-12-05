@@ -5,7 +5,8 @@ html {
     background-color: 	#FFFAFA;
 }
 
-h1 {
+h1,
+h2 {
     font-family: "Nabla", system-ui;
     color: purple;
     width: 100%;
@@ -14,6 +15,30 @@ h1 {
     padding: 5px;
     background-color: #00047A;
 
+}
+
+.reset {
+    z-index: 3;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 20px;
+    z-index: 3;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display {
+    display: none;
 }
 
 
@@ -42,7 +67,7 @@ h1 {
 }
 
 .blink {
-    opacity: 0.75;
+    opacity: 0.5;
 }
 
 .upper-divs,
@@ -58,40 +83,40 @@ h1 {
     background-color:#ad1424;
     border: 5px solid #972024;
 }
-
+/* 
 .red:hover {
     box-shadow: -5px -5px 25px #ad1424;
-}
+} */
 
 .yellow {
     border-top-right-radius: 100%;
     background-color: #EDC001;
     border : 5px solid #C49102;
 }
-
+/* 
 .yellow:hover {
     box-shadow: -5px -5px 25px  #EDC001;
-}
+} */
 
 .green {
     border-bottom-right-radius: 100%;
     background-color: #597D35;
     border : 5px solid #46612B;
 }
-
+/* 
 .green:hover {
     box-shadow: 5px 5px 25px #597D35;
-}
+} */
 
 .blue {
     border-bottom-left-radius: 100%;
     background-color:#0229bf;
     border : 5px solid #00047A;
 }
-
+/* 
 .blue:hover {
     box-shadow: -5px 5px 25px #0229bf;
-}
+} */
 
 .circle {
     z-index: 2;
