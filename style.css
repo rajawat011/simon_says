@@ -83,20 +83,13 @@ h2 {
     background-color:#ad1424;
     border: 5px solid #972024;
 }
-/* 
-.red:hover {
-    box-shadow: -5px -5px 25px #ad1424;
-} */
 
 .yellow {
     border-top-right-radius: 100%;
     background-color: #EDC001;
     border : 5px solid #C49102;
 }
-/* 
-.yellow:hover {
-    box-shadow: -5px -5px 25px  #EDC001;
-} */
+
 
 .green {
     border-bottom-right-radius: 100%;
